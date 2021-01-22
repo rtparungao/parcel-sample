@@ -34,7 +34,7 @@ const getPostage = async ( req, res, next ) => {
     let body = req.body;
 
     if( body ) {
-
+        
         let data = await processPostage(body);
 
         if( data ) {
@@ -42,10 +42,6 @@ const getPostage = async ( req, res, next ) => {
                 status: 1,
                 message: "Postage Computed Successfully",
                 data: {
-                    weight: body.weight,
-                    height: body.height,
-                    width: body.width,
-                    depth: body.depth,
                     category: data.category,
                     cost: data.cost == null ? 'N/A' : `$${data.cost}`
                 }
