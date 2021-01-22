@@ -1,4 +1,4 @@
-# Paracel Postage Compute
+# Parcel Postage Compute
 
 Test project to compute for parcel postage with the given weight, height, width and depth as parcel data.
 
