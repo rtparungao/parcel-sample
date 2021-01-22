@@ -1,17 +1,16 @@
-# project-name
+# Paracel Postage Compute
 
-Description here
-
-## Development Setup
+Test project to compute for parcel postage with the given weight, height, width and depth as parcel data.
 
 ### Dependencies
 
+Node JS and Express JS
+
 ### Steps
 
-## Documentation
-
-- [API](/api/docs)
-- [Deployment Guide]()
-- [Issues]()
+* Clone or Download files
+* run `npm install`
+* run `npm run start`
+* POST url is `parcel/postage`
 
 ## License
